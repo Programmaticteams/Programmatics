@@ -265,6 +265,9 @@ p {
   align-items: flex-end;
   border-radius: 15px;
 }
+.zain-picture {
+  background-image:"https://images.unsplash.com/photo-1690155593307-f98e48ed9b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80" ;
+}
 
 .card:hover .first-content {
   height: 0px;
