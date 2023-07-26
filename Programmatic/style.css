@@ -111,7 +111,7 @@ body {
 }
 
 .Volunteer-page {
-  background-color: rgb(0, 0, 0);
+
   width: 100vw;
   height: 100vh;
 }
@@ -126,10 +126,11 @@ body {
 }
 
 .Volunteer-title {
-  color: #fff4e6;
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 700;
-  opacity: 1;
+  color: #ffffff6d;
+  background-color: rgba(0, 0, 0, 0.467); 
+  padding: 10px; 
+  border-radius: 5px;
+  font-size: 44px; 
 }
 
 .volunteer-info {
@@ -138,7 +139,7 @@ body {
   font-size: clamp(1.5rem, 4vw, 2rem);
   font-weight: 400;
   max-width: 800px;
-  margin-bottom: clamp(2rem, 4vw, 4rem);
+  margin-bottom: clamp(11rem, 4vw, 4rem);
   opacity: 1;
 }
 
@@ -182,15 +183,7 @@ body {
   transition: opacity 400ms ease;
   font-weight: 700;
 }
-h1{
-  color: #fff4e6;
-  display: block;
-  font-family: "Inter", sans-serif;
-  font-size: clamp(1rem, 2vw, 2rem);
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-  transition: opacity 400ms ease;
-  line-height: 2rem * 1.5;
-}
+
 p {
   color: #fff4e6;
   display: block;
@@ -200,13 +193,21 @@ p {
   transition: opacity 400ms ease;
   line-height: 2rem * 1.5;
 }
-
+.white-text {
+  color: white;
+}
 .programmatic-about-us-pic {
   width: clamp(10%, 20%, 30%);
   height: clamp(10%, 20%, 30%);
   object-fit: cover;
   display: block;
 }
+
+.volunteer-info {
+
+  user-select: none;
+}
+
 
 .about-us,
 .about-us-text {
@@ -376,7 +377,7 @@ p {
   object-fit: cover;
   display: block;
   border-radius: 3px;
-  border: 1px solid #5f3dc4;
+  border: 1px solid #5f3dc46f;
   margin-bottom: clamp(2rem, 2vw, 2rem);
 }
 
@@ -384,11 +385,11 @@ p {
   padding: 17px 40px;
   border-radius: 50px;
   border: 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.599);
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 35px;
   transition: all 0.5s ease;
   font-family: Inter, sans-serif;
 }
@@ -397,18 +398,19 @@ p {
   letter-spacing: 3px;
   background-color: hsl(261deg 80% 48%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
 }
 
 .volunteer-button:active {
   letter-spacing: 3px;
   background-color: hsl(261deg 80% 48%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  box-shadow: rgba(93, 24, 220, 0) 0px 0px 0px 0px;
   transform: translateY(10px);
   transition: 100ms;
 }
 
 nav {
-  background-color: #364fc7;
+  background-color: #a0a4b5;
+
 }
