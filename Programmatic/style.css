@@ -9,12 +9,14 @@ body {
   background-color: rgb(1, 1, 15);
   margin: 0px;
   padding: 0px;
+
+
 }
 
 #menu-cos {
   justify-content: center;
   display: flex;
-  height: 100vh;
+  height: 10vh;
   width: 100vw;
   flex-direction: column;
   margin: 0px;
@@ -76,7 +78,6 @@ body {
 }
 
 #menu-background-image {
-  background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEj_8npesQ9yj-rOkURA7m1Da4HmBf-5puS-H-_PWRmFpeDKDEDLI9RzADKYhcVPWMAZs4YGKR35O3YJGpEE-DgfS1p2CPXt13saDw5qtc8GMItafiqo6b9ATq0gWuqbKOjFpf-WZfvlY3_3G1bZ597rGYUD5XPgNVe4RUqVT6m911wigFtvHxbwcoIoaVI=w666-h605");
   background-position: center 40%;
   background-size: 110vmax;
   height: 100%;
@@ -91,7 +92,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+    background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEj_8npesQ9yj-rOkURA7m1Da4HmBf-5puS-H-_PWRmFpeDKDEDLI9RzADKYhcVPWMAZs4YGKR35O3YJGpEE-DgfS1p2CPXt13saDw5qtc8GMItafiqo6b9ATq0gWuqbKOjFpf-WZfvlY3_3G1bZ597rGYUD5XPgNVe4RUqVT6m911wigFtvHxbwcoIoaVI=w666-h605");
+
+  
 }
+
 
 .Volunteer-content {
   background-image: url("https://images.unsplash.com/photo-1620894169431-a2231552593d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
