@@ -89,9 +89,7 @@ body {
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+
     background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEj_8npesQ9yj-rOkURA7m1Da4HmBf-5puS-H-_PWRmFpeDKDEDLI9RzADKYhcVPWMAZs4YGKR35O3YJGpEE-DgfS1p2CPXt13saDw5qtc8GMItafiqo6b9ATq0gWuqbKOjFpf-WZfvlY3_3G1bZ597rGYUD5XPgNVe4RUqVT6m911wigFtvHxbwcoIoaVI=w666-h605");
 
   
@@ -178,7 +176,7 @@ body {
 
 .name {
   margin-left: clamp(4rem, 20vw, 48rem);
-  color: #fff4e6;
+  color: #8c00ff;
   display: block;
   font-family: "Inter", sans-serif;
   font-size: clamp(4rem, 8vw, 10rem);
