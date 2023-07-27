@@ -111,6 +111,7 @@ body {
 }
 
 .Volunteer-page {
+
   width: 100vw;
   height: 100vh;
 }
@@ -126,10 +127,10 @@ body {
 
 .Volunteer-title {
   color: #ffffff6d;
-  background-color: rgba(0, 0, 0, 0.467);
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.467); 
+  padding: 10px; 
   border-radius: 5px;
-  font-size: 44px;
+  font-size: 44px; 
 }
 
 .volunteer-info {
@@ -203,8 +204,10 @@ p {
 }
 
 .volunteer-info {
+
   user-select: none;
 }
+
 
 .about-us,
 .about-us-text {
@@ -248,6 +251,8 @@ p {
   line-height: 2rem * 1.5;
 }
 
+ 
+
 .card {
   width: 285px;
   height: 381px;
@@ -290,7 +295,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: all 0.8s;
   font-size: 0;
   transform: rotate(90deg) scale(-1);
@@ -299,7 +304,7 @@ p {
 .card:hover .second-content {
   opacity: 1;
   height: 100%;
-  width: 100%;
+  width:100%;
   font-size: 1.8rem;
   transform: rotate(0deg);
 }
@@ -380,7 +385,7 @@ p {
   padding: 17px 40px;
   border-radius: 50px;
   border: 0;
-  background-color: #5f3dc4;
+  background-color: rgba(255, 255, 255, 0.599);
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -407,6 +412,7 @@ p {
 
 nav {
   background-color: #a0a4b5;
+
 }
 /* CSS styles */
 
@@ -415,7 +421,7 @@ nav {
 }
 
 .navbar-brand {
-  font-family: "Ibarra Real Nova", serif;
+  font-family: 'Ibarra Real Nova', serif;
   font-size: 24px;
   font-weight: 700;
   color: white;
@@ -438,7 +444,7 @@ nav {
 
 .card {
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 80px;
   background-color: white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px; /* Added margin for spacing */
