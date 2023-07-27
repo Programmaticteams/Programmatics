@@ -1,6 +1,6 @@
-const menu = document.getElementById("menu");
+const menu = document.getElementById("menu-cos");
 
-Array.from(document.getElementsByClassName("menu-item")).forEach(
+Array.from(document.getElementsByClassName("menu-item-cos")).forEach(
   (item, index) => {
     item.onmouseover = () => {
       menu.dataset.activeIndex = index;
@@ -9,7 +9,7 @@ Array.from(document.getElementsByClassName("menu-item")).forEach(
   }
 );
 
-const elementArray = document.getElementsByClassName("menu-item");
+const elementArray = document.getElementsByClassName("menu-item-cos");
 
 elementArray.forEach((item, index) => {
   item.onmouseover = () => {
