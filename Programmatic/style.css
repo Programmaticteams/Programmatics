@@ -440,9 +440,8 @@ nav {
 .enrol-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center cards horizontally */
-  align-items: center; /* Center cards vertically */
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
