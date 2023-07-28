@@ -478,11 +478,3 @@ nav {
   background-color: rgb(93, 24, 220);
   opacity: 1;
 }
-.white-box {
-    width: 200px; /* Set the desired width */
-    height: 150px; /* Set the desired height */
-    background-color: #ffffff; /* Use #ffffff for white, #fff is a shorthand */
-    padding: 20px; /* Optional: Add some padding around the content */
-    border: 2px solid #000000; /* Optional: Add a black border */
-    /* You can also apply other styles like border-radius, box-shadow, etc. */
-}
