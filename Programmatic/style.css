@@ -124,6 +124,17 @@ body {
   height: 100vh;
 }
 
+.volunteer-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.7;
+}
+
 .Volunteer-title {
   font-size: clamp(3rem, 4vw, 8rem);
   font-weight: 700;
@@ -220,17 +231,17 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.about-us {
+  background-color: #000;
+  opacity: 0.7;
+}
+
 .about-us,
 .about-us-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px 10vw;
-}
-
-.about-us {
-  margin-top: clamp(8rem, 20vw, 2rem);
 }
 
 .about-us-name {
@@ -255,6 +266,10 @@ p {
   color: #fff;
   display: block;
   font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.about-us-text {
+  margin-top: clamp(8rem, 2vw, 8rem);
 }
 
 .about-us-info {
