@@ -132,6 +132,7 @@ body {
   display: block;
   text-align: center;
   margin-bottom: clamp(0rem, 2vw, 0.5rem);
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .volunteer-info {
@@ -145,6 +146,19 @@ body {
   line-height: 2rem * 1.5;
   letter-spacing: -2%;
   max-width: 1000px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card-span {
+  text-align: center;
+  font-weight: 400;
+  margin: 0px;
+  color: #fff4e6;
+  font-size: clamp(1rem, 2vw, 1rem);
+  line-height: 2rem * 1.5;
+  letter-spacing: -2%;
+  max-width: 1000px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 #menu-items-cos:hover ~ #menu-background-pattern {
@@ -169,29 +183,29 @@ body {
   color: #fff4e6;
   cursor: pointer;
   display: block;
-  font-family: "Inter", sans-serif;
   font-size: clamp(3rem, 8vw, 8rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .name {
   margin-left: clamp(4rem, 20vw, 48rem);
   color: #8c00ff;
   display: block;
-  font-family: "Inter", sans-serif;
   font-size: clamp(3.5rem, 8vw, 10rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
   font-weight: 700;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 p {
   color: #fff4e6;
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: clamp(1rem, 2vw, 2rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   transition: opacity 400ms ease;
@@ -203,6 +217,7 @@ p {
 
 .volunteer-info {
   user-select: none;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .about-us,
@@ -221,7 +236,6 @@ p {
 .about-us-name {
   color: #8c00ff;
   display: block;
-  font-family: "Inter", sans-serif;
   font-size: clamp(3.5rem, 8vw, 10rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
@@ -231,6 +245,7 @@ p {
   display: block;
   margin-bottom: clamp(0.5rem, 2rem, 0.5rem);
   letter-spacing: -1%;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .about-us-topic {
@@ -239,6 +254,7 @@ p {
   margin: 0px;
   color: #fff;
   display: block;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .about-us-info {
@@ -252,6 +268,7 @@ p {
   line-height: 2rem * 1.5;
   letter-spacing: -2%;
   max-width: 1000px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .card {
@@ -283,6 +300,8 @@ p {
   align-items: flex-end;
   border-radius: 5px;
   color: #fff4e6;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .card:hover .first-content {
@@ -302,6 +321,7 @@ p {
   font-size: 0;
   transform: rotate(90deg) scale(-1);
   color: #fff4e6;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .card:hover .second-content {
@@ -328,6 +348,7 @@ p {
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
   margin-top: clamp(8rem, 2vw, 8rem);
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .OurTeam {
@@ -347,6 +368,7 @@ p {
   display: block;
   margin-bottom: clamp(4rem, 2vw, 4rem);
   text-align: center;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .volunteer-container {
@@ -366,12 +388,14 @@ p {
   display: block;
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 .volunteer-text {
   text-align: center;
   font-size: clamp(1rem, 2vw, 2rem);
   width: 50vw;
   margin-bottom: clamp(2rem, 2vw, 2rem);
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .volunteer-image {
@@ -393,7 +417,7 @@ p {
   text-transform: uppercase;
   font-size: 35px;
   transition: all 0.5s ease;
-  font-family: Inter, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .volunteer-button:hover {
@@ -453,18 +477,41 @@ nav {
 
 .card-body {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjusted to space between */
+  align-items: center;
+  height: 100%;
 }
 
 .card-title {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 10px;
+  color: #000;
+  display: block;
+  font-size: clamp(1rem, 8vw, 1.2rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+  font-weight: 700;
+  margin: 0px;
+  display: block;
+  letter-spacing: -1%;
+  line-height: 2rem * 1.5;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .card-text {
-  color: #333;
-  font-size: 16px;
-  line-height: 1.6;
+  color: #000;
+  display: block;
+  font-size: clamp(1.1rem, 8vw, 1.1rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+  font-weight: 400;
+  margin: 0px;
+  display: block;
+  letter-spacing: -1%;
+  line-height: 2rem * 1.5;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .btn-primary {
@@ -476,6 +523,7 @@ nav {
   text-decoration: none;
   border: none;
   opacity: 0.9;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .btn-primary:hover {
@@ -492,6 +540,7 @@ nav {
   margin-bottom: clamp(1rem, 2vw, 1rem);
   text-align: center;
   margin-top: clamp(8rem, 2vw, 8rem);
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .journey-info {
@@ -505,6 +554,7 @@ nav {
   line-height: 2rem * 1.5;
   letter-spacing: -2%;
   max-width: 1200px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .journey-box {
@@ -520,4 +570,26 @@ nav {
   height: 100%;
   background-size: cover; /* Resize the background image to cover the entire container */
   background-position: center; /* Center the image within the container */
+}
+
+.Enroll-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enroll-title {
+  color: #8c00ff;
+  display: block;
+  font-size: clamp(3.5rem, 8vw, 10rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+  font-weight: 700;
+  margin: 0px;
+  display: block;
+  margin-bottom: clamp(0.5rem, 2rem, 0.5rem);
+  letter-spacing: -1%;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
