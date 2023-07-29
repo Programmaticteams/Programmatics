@@ -107,6 +107,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 0px;
 }
 
 .Volunteer-page {
@@ -374,7 +375,6 @@ p {
   display: block;
   border-radius: 3px;
   border: 1px solid rgb(93, 24, 220);
-  margin-bottom: clamp(2rem, 2vw, 2rem);
 }
 
 .volunteer-button {
