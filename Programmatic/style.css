@@ -194,12 +194,6 @@ p {
 .white-text {
   color: white;
 }
-.programmatic-about-us-pic {
-  width: clamp(10%, 20%, 30%);
-  height: clamp(10%, 20%, 30%);
-  object-fit: cover;
-  display: block;
-}
 
 .volunteer-info {
   user-select: none;
@@ -219,20 +213,25 @@ p {
 }
 
 .about-us-name {
-  font-size: clamp(4rem, 40vw, 2rem);
+  color: #8c00ff;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: clamp(3.5rem, 8vw, 10rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  text-decoration: none;
+  transition: opacity 400ms ease;
   font-weight: 700;
   margin: 0px;
-  color: #fff4e6;
   display: block;
-  margin-bottom: clamp(8rem, 20vw, 2rem);
+  margin-bottom: clamp(0.5rem, 2rem, 0.5rem);
   letter-spacing: -1%;
 }
 
 .about-us-topic {
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(2rem, 4vw, 6rem);
   font-weight: 700;
   margin: 0px;
-  color: #fff4e6;
+  color: #fff;
   display: block;
 }
 
@@ -242,9 +241,12 @@ p {
   margin: 0px;
   color: #fff4e6;
   display: block;
-  margin-bottom: clamp(8rem, 2vw, 4rem);
+  margin-bottom: clamp(2rem, 2vw, 4rem);
   text-align: center;
   line-height: 2rem * 1.5;
+  letter-spacing: -2%;
+  line-height: 120%;
+  max-width: 1000px;
 }
 
 .card {
@@ -371,7 +373,7 @@ p {
   object-fit: cover;
   display: block;
   border-radius: 3px;
-  border: 1px solid #5f3dc46f;
+  border: 1px solid rgb(93, 24, 220);
   margin-bottom: clamp(2rem, 2vw, 2rem);
 }
 
