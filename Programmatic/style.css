@@ -246,7 +246,6 @@ p {
   text-align: center;
   line-height: 2rem * 1.5;
   letter-spacing: -2%;
-  line-height: 120%;
   max-width: 1000px;
 }
 
@@ -475,4 +474,35 @@ nav {
 .btn-primary:hover {
   background-color: rgb(93, 24, 220);
   opacity: 1;
+}
+
+.journey-title {
+  font-size: clamp(2rem, 4vw, 8rem);
+  font-weight: 700;
+  margin: 0px;
+  color: #fff;
+  display: block;
+  margin-bottom: clamp(1rem, 2vw, 1rem);
+  text-align: center;
+  margin-top: clamp(8rem, 2vw, 8rem);
+}
+
+.journey-info {
+  font-size: clamp(1rem, 2vw, 2rem);
+  font-weight: 400;
+  margin: 0px;
+  color: #fff4e6;
+  display: block;
+  margin-bottom: clamp(2rem, 2vw, 4rem);
+  text-align: center;
+  line-height: 2rem * 1.5;
+  letter-spacing: -2%;
+  max-width: 1000px;
+}
+
+.journey-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
