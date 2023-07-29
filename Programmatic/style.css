@@ -277,6 +277,7 @@ p {
   justify-content: center;
   align-items: flex-end;
   border-radius: 5px;
+  color: #fff4e6;
 }
 
 .card:hover .first-content {
@@ -295,6 +296,7 @@ p {
   transition: all 0.8s;
   font-size: 0;
   transform: rotate(90deg) scale(-1);
+  color: #fff4e6;
 }
 
 .card:hover .second-content {
@@ -505,4 +507,12 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.zain-pic {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5YVD7KAo_gA_GX_D6ddLJmSWhqW9ssDV76qUlNZCnBwRszzsHYZOZBYr0huy3bPIF5MbPrRB1lXXIuV-j81S_YptBwSWOhmyF1xpZIhzEwjC_Dvy-o1oEysNdkOoWr8tRudsscW5lYSdvEXt4YLuxsK6q7Jl9UweNJLMiAGXlu1bpvA3UExi7kxzp6mA/s320/zain.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; /* Center the image within the container */
 }
