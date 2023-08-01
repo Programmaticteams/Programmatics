@@ -573,6 +573,8 @@ nav {
   max-width: 1200px;
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .journey-box {
