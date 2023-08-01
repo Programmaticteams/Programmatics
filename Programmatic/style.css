@@ -233,10 +233,7 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.about-us {
-  background-color: #000;
-  opacity: 0.7;
-}
+
 
 .about-us,
 .about-us-text {
@@ -559,7 +556,17 @@ nav {
   text-align: center;
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
-
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.7;
+  
+}
 .journey-info {
   font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: 400;
