@@ -274,9 +274,9 @@ p {
 
 .about-us-info {
   font-size: clamp(1rem, 2vw, 2rem);
-  font-weight: 400;
+  font-weight: 600;
   margin: 0px;
-  color: #fff4e6;
+  color: #fff;
   display: block;
   margin-bottom: clamp(2rem, 2vw, 4rem);
   text-align: center;
@@ -284,6 +284,7 @@ p {
   letter-spacing: -2%;
   max-width: 1000px;
   font-family: "IBM Plex Sans", sans-serif;
+  opacity: 1;
 }
 
 .card {
@@ -358,7 +359,7 @@ p {
   font-size: clamp(4rem, 4vw, 8rem);
   font-weight: 700;
   margin: 0px;
-  color: #fff4e6;
+  color: #fff;
   display: block;
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
@@ -379,7 +380,7 @@ p {
   font-size: clamp(4rem, 4vw, 8rem);
   font-weight: 700;
   margin: 0px;
-  color: #fff4e6;
+  color: #fff;
   display: block;
   margin-bottom: clamp(4rem, 2vw, 4rem);
   text-align: center;
@@ -554,7 +555,6 @@ nav {
   display: block;
   margin-bottom: clamp(1rem, 2vw, 1rem);
   text-align: center;
-  margin-top: clamp(8rem, 2vw, 8rem);
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
@@ -570,6 +570,7 @@ nav {
   letter-spacing: -2%;
   max-width: 1200px;
   font-family: "IBM Plex Sans", sans-serif;
+  opacity: 1;
 }
 
 .journey-box {
@@ -577,6 +578,9 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 5px;
 }
 
 .zain-pic {
