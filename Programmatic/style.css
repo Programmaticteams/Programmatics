@@ -9,7 +9,6 @@ body {
   background-color: rgb(1, 1, 15);
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 
 #menu-cos {
@@ -77,6 +76,7 @@ body {
 }
 
 #menu-background-image {
+  background-image: url("https://images.unsplash.com/photo-1681406405664-dab81e47b7d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
   background-position: center 40%;
   background-size: 110vmax;
   height: 100%;
@@ -88,8 +88,9 @@ body {
     background-position 800ms ease;
   width: 100%;
   z-index: 0;
-
-  background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEj_8npesQ9yj-rOkURA7m1Da4HmBf-5puS-H-_PWRmFpeDKDEDLI9RzADKYhcVPWMAZs4YGKR35O3YJGpEE-DgfS1p2CPXt13saDw5qtc8GMItafiqo6b9ATq0gWuqbKOjFpf-WZfvlY3_3G1bZ597rGYUD5XPgNVe4RUqVT6m911wigFtvHxbwcoIoaVI=w666-h605");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .Volunteer-content {
@@ -107,10 +108,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin-bottom: 0px;
 }
 
 .Volunteer-page {
+  background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 100vh;
 }
@@ -136,40 +137,20 @@ body {
 }
 
 .Volunteer-title {
-  font-size: clamp(3rem, 4vw, 8rem);
+  color: #fff4e6;
+  font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 700;
-  margin: 0px;
-  color: #fff;
-  display: block;
-  text-align: center;
-  margin-bottom: clamp(0rem, 2vw, 0.5rem);
-  font-family: "IBM Plex Sans Condensed", sans-serif;
+  opacity: 1;
 }
 
 .volunteer-info {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  font-weight: 400;
-  margin: 0px;
-  color: #fff4e6;
-  display: block;
-  margin-bottom: clamp(4rem, 2vw, 6rem);
   text-align: center;
-  line-height: 2rem * 1.5;
-  letter-spacing: -2%;
-  max-width: 1000px;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.card-span {
-  text-align: center;
-  font-weight: 400;
-  margin: 0px;
   color: #fff4e6;
-  font-size: clamp(1rem, 2vw, 1rem);
-  line-height: 2rem * 1.5;
-  letter-spacing: -2%;
-  max-width: 1000px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 400;
+  max-width: 800px;
+  margin-bottom: clamp(2rem, 4vw, 4rem);
+  opacity: 1;
 }
 
 #menu-items-cos:hover ~ #menu-background-pattern {
@@ -182,11 +163,11 @@ body {
   opacity: 0.1;
 }
 
-#menu-items-cos:hover > .menu-item-cos {
+#menu-items-cos:hover > .menu-item {
   opacity: 0.3;
 }
 
-#menu-items-cos:hover > .menu-item-cos:hover {
+#menu-items-cos:hover > .menu-item:hover {
   opacity: 1;
 }
 
@@ -194,41 +175,40 @@ body {
   color: #fff4e6;
   cursor: pointer;
   display: block;
+  font-family: "Inter", sans-serif;
   font-size: clamp(3rem, 8vw, 8rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .name {
   margin-left: clamp(4rem, 20vw, 48rem);
-  color: #8c00ff;
+  color: #fff4e6;
   display: block;
-  font-size: clamp(3.5rem, 8vw, 10rem);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(4rem, 8vw, 10rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
   transition: opacity 400ms ease;
   font-weight: 700;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 p {
   color: #fff4e6;
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(1rem, 2vw, 2rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   transition: opacity 400ms ease;
   line-height: 2rem * 1.5;
 }
-.white-text {
-  color: white;
-}
 
-.volunteer-info {
-  user-select: none;
-  font-family: "IBM Plex Sans", sans-serif;
+.programmatic-about-us-pic {
+  width: clamp(10%, 20%, 30%);
+  height: clamp(10%, 20%, 30%);
+  object-fit: cover;
+  display: block;
 }
 
 .about-us {
@@ -245,27 +225,21 @@ p {
 }
 
 .about-us-name {
-  color: #8c00ff;
-  display: block;
-  font-size: clamp(3.5rem, 8vw, 10rem);
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-  text-decoration: none;
-  transition: opacity 400ms ease;
+  font-size: clamp(4rem, 40vw, 2rem);
   font-weight: 700;
   margin: 0px;
+  color: #fff4e6;
   display: block;
-  margin-bottom: clamp(0.5rem, 2rem, 0.5rem);
+  margin-bottom: clamp(8rem, 20vw, 2rem);
   letter-spacing: -1%;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .about-us-topic {
-  font-size: clamp(2rem, 4vw, 6rem);
+  font-size: clamp(2rem, 4vw, 4rem);
   font-weight: 700;
   margin: 0px;
-  color: #fff;
+  color: #fff4e6;
   display: block;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .about-us-text {
@@ -278,32 +252,52 @@ p {
   margin: 0px;
   color: #fff4e6;
   display: block;
-  margin-bottom: clamp(2rem, 2vw, 4rem);
+  margin-bottom: clamp(8rem, 2vw, 4rem);
   text-align: center;
   line-height: 2rem * 1.5;
-  letter-spacing: -2%;
-  max-width: 1000px;
-  font-family: "IBM Plex Sans", sans-serif;
 }
+
+ 
 
 .card {
   width: 285px;
   height: 381px;
-  background: rgba(160, 224, 240, 0.495);
+  background: rgb(103, 225, 255);
   transition: all 0.4s;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
   font-size: 30px;
   font-weight: 900;
   text-align: center;
+
+
+
+
+  
+}
+.card{
+  width: 285px;
+  height: 381px;
+
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+
+  background-repeat: no-repeat;
 }
 
+
 .card:hover {
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   transform: scale(1.2);
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
-  background: rgba(122, 153, 219, 0.894);
+  background: rgb(103, 151, 255);
+  
+  
 }
 
 .first-content {
@@ -313,38 +307,40 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border-radius: 5px;
-  color: #fff4e6;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
+  border-radius: 15px;
+  
+  
 }
 
 .card:hover .first-content {
+  
   height: 0px;
   opacity: 0;
+  
 }
 
 .second-content {
+
   height: 0;
   width: 100%;
   opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: all 0.8s;
   font-size: 0;
   transform: rotate(90deg) scale(-1);
-  color: #fff4e6;
-  font-family: "IBM Plex Sans", sans-serif;
+  
 }
-
 .card:hover .second-content {
+  
   opacity: 1;
   height: 100%;
-  width: 100%;
+  width:100%;
   font-size: 1.8rem;
   transform: rotate(0deg);
+
 }
 
 .cards-container {
@@ -352,9 +348,12 @@ p {
   justify-content: center;
   gap: 4rem;
   margin-bottom: clamp(16rem, 2vw, 16rem);
+
 }
 
+
 .OurTeam-title {
+  
   font-size: clamp(4rem, 4vw, 8rem);
   font-weight: 700;
   margin: 0px;
@@ -363,7 +362,6 @@ p {
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
   margin-top: clamp(8rem, 2vw, 8rem);
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .OurTeam {
@@ -383,7 +381,6 @@ p {
   display: block;
   margin-bottom: clamp(4rem, 2vw, 4rem);
   text-align: center;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 .volunteer-container {
@@ -403,14 +400,12 @@ p {
   display: block;
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 .volunteer-text {
   text-align: center;
   font-size: clamp(1rem, 2vw, 2rem);
   width: 50vw;
   margin-bottom: clamp(2rem, 2vw, 2rem);
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .volunteer-image {
@@ -419,192 +414,39 @@ p {
   object-fit: cover;
   display: block;
   border-radius: 3px;
-  border: 1px solid rgb(93, 24, 220);
+  border: 1px solid #5f3dc4;
+  margin-bottom: clamp(2rem, 2vw, 2rem);
 }
 
 .volunteer-button {
   padding: 17px 40px;
   border-radius: 50px;
   border: 0;
-  background-color: rgba(255, 255, 255, 0.599);
+  background-color: white;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 15px;
   transition: all 0.5s ease;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .volunteer-button:hover {
   letter-spacing: 3px;
   background-color: hsl(261deg 80% 48%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
 }
 
 .volunteer-button:active {
   letter-spacing: 3px;
   background-color: hsl(261deg 80% 48%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgba(93, 24, 220, 0) 0px 0px 0px 0px;
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
   transform: translateY(10px);
   transition: 100ms;
 }
 
 nav {
-  background-color: #a0a4b5;
-}
-/* CSS styles */
-
-.navbar {
-  background-color: #a0a4b5;
-}
-
-.navbar-brand {
-  font-family: "Ibarra Real Nova", serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: white;
-}
-
-.navbar-nav .nav-link {
-  color: white;
-}
-.enroll-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px;
-}
-
-.enrol-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; /* Adjusted to space around */
-}
-
-.card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px; /* Added margin for spacing */
-}
-
-.card-body {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Adjusted to space between */
-  align-items: center;
-  height: 100%;
-}
-
-.card-title {
-  color: #000;
-  display: block;
-  font-size: clamp(1rem, 8vw, 1.2rem);
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-  text-decoration: none;
-  transition: opacity 400ms ease;
-  font-weight: 700;
-  margin: 0px;
-  display: block;
-  letter-spacing: -1%;
-  line-height: 2rem * 1.5;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
-}
-
-.card-text {
-  color: #000;
-  display: block;
-  font-size: clamp(1.1rem, 8vw, 1.1rem);
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-  text-decoration: none;
-  transition: opacity 400ms ease;
-  font-weight: 400;
-  margin: 0px;
-  display: block;
-  letter-spacing: -1%;
-  line-height: 2rem * 1.5;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.btn-primary {
-  background-color: rgb(93, 24, 220);
-  color: white;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  border: none;
-  opacity: 0.9;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.btn-primary:hover {
-  background-color: rgb(93, 24, 220);
-  opacity: 1;
-}
-
-.journey-title {
-  font-size: clamp(2rem, 4vw, 8rem);
-  font-weight: 700;
-  margin: 0px;
-  color: #fff;
-  display: block;
-  margin-bottom: clamp(1rem, 2vw, 1rem);
-  text-align: center;
-  margin-top: clamp(8rem, 2vw, 8rem);
-  font-family: "IBM Plex Sans Condensed", sans-serif;
-}
-
-.journey-info {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  font-weight: 400;
-  margin: 0px;
-  color: #fff4e6;
-  display: block;
-  margin-bottom: clamp(2rem, 2vw, 4rem);
-  text-align: center;
-  line-height: 2rem * 1.5;
-  letter-spacing: -2%;
-  max-width: 1200px;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-.journey-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.zain-pic {
-  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5YVD7KAo_gA_GX_D6ddLJmSWhqW9ssDV76qUlNZCnBwRszzsHYZOZBYr0huy3bPIF5MbPrRB1lXXIuV-j81S_YptBwSWOhmyF1xpZIhzEwjC_Dvy-o1oEysNdkOoWr8tRudsscW5lYSdvEXt4YLuxsK6q7Jl9UweNJLMiAGXlu1bpvA3UExi7kxzp6mA/s320/zain.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover; /* Resize the background image to cover the entire container */
-  background-position: center; /* Center the image within the container */
-}
-
-.Enroll-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.enroll-title {
-  color: #8c00ff;
-  display: block;
-  font-size: clamp(3.5rem, 8vw, 10rem);
-  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
-  text-decoration: none;
-  transition: opacity 400ms ease;
-  font-weight: 700;
-  margin: 0px;
-  display: block;
-  margin-bottom: clamp(0.5rem, 2rem, 0.5rem);
-  letter-spacing: -1%;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
+  background-color: #364fc7;
 }
