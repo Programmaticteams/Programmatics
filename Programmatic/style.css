@@ -608,3 +608,10 @@ nav {
   letter-spacing: -1%;
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
