@@ -282,6 +282,8 @@ p {
   max-width: 1000px;
   font-family: "IBM Plex Sans", sans-serif;
   opacity: 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .card {
@@ -394,7 +396,7 @@ p {
 }
 
 .Volunteer {
-  font-size: clamp(4rem, 4vw, 8rem);
+  font-size: clamp(3rem, 4vw, 8rem);
   font-weight: 700;
   margin: 0px;
   color: #fff4e6;
