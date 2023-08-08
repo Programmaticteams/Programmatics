@@ -337,6 +337,7 @@ p {
   transform: rotate(90deg) scale(-1);
   color: #fff4e6;
   font-family: "IBM Plex Sans", sans-serif;
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
 }
 
 .card:hover .second-content {
@@ -384,6 +385,16 @@ p {
   margin-bottom: clamp(4rem, 2vw, 4rem);
   text-align: center;
   font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+.bio-text{
+  color: #fff4e6;
+  display: block;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(0.5rem, 2vw, 1rem);
+  padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+  transition: opacity 400ms ease;
+  line-height: 2rem * 1.5;
 }
 
 .volunteer-container {
@@ -452,12 +463,12 @@ p {
 }
 
 nav {
-  background-color: #a0a4b5;
+  background-color: #a0a4b59f;
 }
 /* CSS styles */
 
 .navbar {
-  background-color: #a0a4b5;
+  background-color: #a0a4b59f;
 }
 
 .navbar-brand {
