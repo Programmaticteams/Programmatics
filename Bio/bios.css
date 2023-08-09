@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #a0a4b587;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bio--box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.86);
+  max-width: 71rem;
+  margin: auto;
+}
+
+.bio--pic {
+  height: clamp(100px, 20vw, 200px);
+  width: clamp(100px, 20vw, 200px);
+}
+
+.bio--pic--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bio--name--box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: clamp(1rem, 5vw, 1rem);
+  margin-right: clamp(1rem, 5vw, 1rem);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cs--xp--projects {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: clamp(15px, 5vw, 30px);
+  grid-template:
+    ". . . ."
+    / 1fr 1fr 1fr 1fr;
+  margin-bottom: 140px;
+  margin-top: 40px;
+}
+
+.teaching--xp--projects {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: clamp(15px, 5vw, 30px);
+  grid-template:
+    ". . . ."
+    / 1fr 1fr 1fr 1fr;
+  margin-bottom: 140px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .cs--xp--projects {
+    grid-template:
+      ". ."
+      ". ."
+      / 1fr 1fr;
+  }
+  .teaching--xp--projects {
+    grid-template:
+      ". ."
+      ". ."
+      / 1fr 1fr;
+  }
+}
+
+.cs--xp--box {
+  grid-column: 1 / span 2;
+  margin-left: clamp(1rem, 5vw, 1rem);
+  margin-right: clamp(1rem, 5vw, 1rem);
+}
+
+.teaching--xp--box {
+  grid-column: 1 / span 2;
+  margin-left: clamp(1rem, 5vw, 1rem);
+  margin-right: clamp(1rem, 5vw, 1rem);
+}
+
+.email--box {
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 5px solid #000;
+}
+
+.bio--name {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.bio--description,
+.cs--xp--description,
+.teaching--xp--description,
+.email--description {
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.cs--xp--title,
+.teaching--xp--title,
+.email--title {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.cs--xp--project--title,
+.teaching--xp--project--title {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.cs--xp--project--description,
+.teaching--xp--project--description {
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
