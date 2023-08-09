@@ -391,7 +391,7 @@ p {
   color: #fff4e6;
   display: block;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: clamp(0.5rem, 2vw, 1rem);
+  font-size: clamp(1rem, 2vw, 1rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   transition: opacity 400ms ease;
   line-height: 2rem * 1.5;
@@ -425,8 +425,8 @@ p {
 }
 
 .volunteer-image {
-  width: clamp(50%, 60%, 70%);
-  height: clamp(50%, 60%, 70%);
+  width: clamp(25rem, 60vw, 60rem);
+  width: clamp(25rem, 60vw, 60rem);
   object-fit: cover;
   display: block;
   border-radius: 3px;
@@ -656,4 +656,11 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.btn--learnMore {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
