@@ -19,3 +19,13 @@ elementArray.forEach((item, index) => {
 });
 
 
+// script.js
+
+// Check if the user agent is from an iPhone
+const isIPhone = /iPhone/i.test(navigator.userAgent);
+
+// If it's an iPhone, show the alert area
+if (isIPhone) {
+    const alertArea = document.querySelector('.alert-area');
+    alertArea.style.display = 'block';
+}

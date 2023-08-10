@@ -48,7 +48,12 @@ body {
   flex-direction: column;
   margin: 0px;
 }
-
+/* Media query targeting iOS devices */
+@media only screen and (max-device-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+    .alert-area {
+        display: block; /* Display the alert area only for iOS devices */
+    }
+}
 #menu-items-cos {
   margin-left: clamp(3rem, 20vw, 48rem);
   position: relative;
