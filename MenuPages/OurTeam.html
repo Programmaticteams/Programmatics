@@ -20,6 +20,18 @@
       rel="stylesheet"
     />
     <link href="../style.css" rel="stylesheet" />
+    <style>
+      /* Your other CSS styles */
+
+      /* Define a media query for iPhone screens */
+      @media only screen and (max-device-width: 414px) {
+          body {
+              zoom: 1; /* Reset the zoom level for iPhone screens */
+              transform: scale(1); /* Reset the scaling for iPhone screens */
+              transform-origin: 0 0; /* Set the transform origin to top-left corner */
+          }
+      }
+  </style>
   </head>
 
   <body>
