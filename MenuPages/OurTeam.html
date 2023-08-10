@@ -20,18 +20,7 @@
       rel="stylesheet"
     />
     <link href="../style.css" rel="stylesheet" />
-    <style>
-      /* Your other CSS styles */
 
-      /* Define a media query for iPhone screens */
-      @media only screen and (max-device-width: 414px) {
-          body {
-              zoom: 1; /* Reset the zoom level for iPhone screens */
-              transform: scale(1); /* Reset the scaling for iPhone screens */
-              transform-origin: 0 0; /* Set the transform origin to top-left corner */
-          }
-      }
-  </style>
   </head>
 
   <body>
@@ -47,13 +36,41 @@
         Programmatics
       </a>
       <style>
-        body {
-          background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-attachment: fixed;
-        }
-      </style>
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, sans-serif;
+}
+
+@viewport {
+  width: device-width;
+}
+
+body {
+  background-color: rgb(1, 1, 15);
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  width: 200px; 
+}
+
+/* Rest of your CSS styles... */
+</style>
+
       <button
         class="navbar-toggler"
         type="button"
