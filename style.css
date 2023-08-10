@@ -12,23 +12,20 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-
 }
-
 
 .alert {
   padding: 10px;
-  
+
   margin-bottom: 10px;
   border-radius: 4px;
   color: #fff;
   font-weight: bold;
-  width: 200px; 
+  width: 200px;
 }
 
-
 .warning {
-  background-color: #FFC107; 
+  background-color: #ffc107;
 }
 
 #menu-cos {
@@ -429,7 +426,7 @@ p {
   font-size: clamp(3rem, 4vw, 8rem);
   font-weight: 700;
   margin: 0px;
-  color: #fff4e6;
+  color: #fff;
   display: block;
   margin-bottom: clamp(2rem, 2vw, 2rem);
   text-align: center;
