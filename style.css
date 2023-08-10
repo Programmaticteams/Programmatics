@@ -4,17 +4,11 @@
   padding: 0px;
   font-family: Inter, sans-serif;
 }
-
-body {
-  background-color: rgb(1, 1, 15);
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  -webkit-text-size-adjust:100%
-}
 @viewport {
   width: device-width;
 }
+
+
 #menu-cos {
   justify-content: center;
   display: flex;
