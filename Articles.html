@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programmatic - Articles</title>
+    <link rel="icon" href="img/logo_short.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #e6dfd1f7;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 235px;
+            position: fixed;
+            top: 0px;
+            left: 0;
+            background-color: #f2f2f2;
+            background-image: url(https://requirejs.org/i/shadow.png);
+            background-position: right top;
+            background-repeat: repeat-y;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            padding-right: 15px;
+            padding-left: 15px;
+            gap: 2rem;
+
+        }
+
+        .sidebar div {
+            padding: 2px;
+            padding-bottom: 0;
+            font-size: 24px;
+            display: block;
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            font-family: 'Inconsolata', monospace;
+        }
+
+        .logo-home-box {
+            text-align: center;
+        }
+
+
+        nav {
+            background-color: #a0a4b59f;
+            
+        }
+
+        /* CSS styles */
+
+        .navbar {
+            background-color: #a0a4b59f;
+      
+        }
+
+        .navbar-brand {
+            font-family: "Ibarra Real Nova", serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            padding-left: 235px;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .acticle-container {
+            margin-left: 16rem;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            padding: 10rem;
+            padding-top: 2rem;
+
+        }
+
+        #articles-list ul {
+            list-style-type: none;
+            padding-top: 3rem;
+
+        }
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            color: #0f0145;
+        }
+
+        .markdown-content {
+            padding: 1rem, 1rem, 1rem, 1rem;
+        }
+
+        #body-text {
+            display: flex;
+            flex-direction: column;
+            top: 56px;
+            gap: 2rem;
+            min-height: 833px;
+            padding: 0.25rem, 0.25rem, 0.25rem, 0.25rem;
+            z-index: -1;
+        }
+
+        body {
+            background-color: #e6dfd1f7;
+        }
+
+        .divider {
+            border: #0f0145;
+
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 28px;
+            font-family: monospace;
+            margin-bottom: 0.4rem;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #333;
+            margin-bottom: 1rem;
+            font-weight: 400;
+
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-light" href="./index.html">
+            <img src="./img/logo_short.png" width="30" height="30" class="d-inline-block align-top" alt="" />
+            Programmatic
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Dropdown menu container -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./MenuPages/AboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./MenuPages/OurTeam.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./MenuPages/Volunteer.html">Volunteer</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="./MenuPages/Enroll.html">Enroll</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="Articles.html">Articles</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="acticle-container">
+
+        <div id="articles-list" class="sidebar">
+            <div id="home">
+                <a href=" ">
+                    <hr width="100%"  color="black" size="100px"/>
+                    <div class="logo-home-box">
+                        <img class="logo" src="./img/logo_short.png" width="100" height="100">
+                        <h2> HOME PAGE</h2>
+                    </div>
+                    <div class="atricle-sep"></div>
+                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+                    <hr width="100%"  color="black" size="100px"/>
+                </a>
+                
+            </div>
+            
+            <div>
+                <a href="./Articles/emoji-support.md"> THING </a>
+            </div>
+            <div>
+                <a href="./Articles/markdown-syntax.md"> THING </a>
+            </div>
+            <div>
+                <a href="./Articles/math.md"> THING </a>
+            </div>
+            <div>
+                <a href="./Articles/rich-content.md"> THING </a>
+            </div>
+            <hr width="100%"  color="black" size="100px"/>
+        </div>
+        <div class="divider"></div>
+        <div class="body-text">
+            <div id="markdown-content"></div>
+            <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+            <script>
+                const articlesListElement = document.getElementById('articles-list');
+                const markdownContentElement = document.getElementById('markdown-content');
+                fetchMarkdownAndConvert('HOME.md'); // Replace with the actual path to your default Markdown file
+
+                // Function to fetch and convert Markdown content
+                function fetchMarkdownAndConvert(filePath) {
+                    fetch(filePath)
+                        .then(response => response.text())
+                        .then(markdown => {
+                            const html = marked(markdown);
+                            markdownContentElement.innerHTML = html;
+                        })
+                        .catch(error => console.error('Error fetching or converting Markdown:', error));
+                }
+                // Attach click event listeners to each link
+                articlesListElement.addEventListener('click', function (event) {
+                    if (event.target.tagName === 'A') {
+                        event.preventDefault(); // Prevent the default link behavior
+                        const filePath = event.target.getAttribute('href');
+                        fetchMarkdownAndConvert(filePath);
+                    }
+                });
+
+                function fetchMarkdownAndConvert(filePath) {
+                    fetch(filePath)
+                        .then(response => response.text())
+                        .then(markdown => {
+                            const html = marked.parse(markdown);
+                            markdownContentElement.innerHTML = html;
+                        })
+                        .catch(error => console.error('Error fetching or converting Markdown:', error));
+                }
+
+            </script>
+        </div>
+
+</body>
