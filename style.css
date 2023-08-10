@@ -14,6 +14,31 @@ body {
   overflow-x: hidden;
 
 }
+/* styles.css */
+
+/* Style for the alert area container */
+.alert-area {
+  position: fixed;
+  top: 10px; 
+  left: 10px; 
+  z-index: 1000; 
+}
+
+
+.alert {
+  padding: 10px;
+  
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  width: 200px; 
+}
+
+
+.warning {
+  background-color: #FFC107; 
+}
 
 #menu-cos {
   justify-content: center;
