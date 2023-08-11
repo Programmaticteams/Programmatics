@@ -17,7 +17,7 @@ Our course categories include:
   
 Enrolling in our courses is a straightforward process:
 
-Visit our website at [https://programmaticteams.github.io/Programmatic.github.io/].
+Visit our website at [https://www.programmatics.org].
 Browse through our course catalog under "Enroll" to find the one that interests you.
 Click on the course you wish to enroll in and fill out our quick questionaire.
 
