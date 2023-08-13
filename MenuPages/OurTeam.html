@@ -41,6 +41,30 @@
           background-repeat: no-repeat;
           background-size: cover;
           background-attachment: fixed;
+          
+        }
+        .Ourteam-style {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 200vh;
+          background-color: #0000009b;
+
+        }
+        @media screen and (max-width: 600px) {
+         
+          .Ourteam-style {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          height: 250vh;
+          background-color: #0000009b;
+
+        }
         }
       </style>
       <button
@@ -81,9 +105,15 @@
         </ul>
       </div>
     </nav>
+    <div class="Ourteam-style">
     <div class="OurTeam-content">
+
+
       <div class="OurTeam">
+
+
         <h2 class="OurTeam-title">Our Team</h2>
+        
         <p class="about-us-info">
           Our instructors are high school students who are experienced in both
           teaching and computer science. They bring a fresh and innovative
@@ -173,17 +203,18 @@
               </div>
             </div>
           </div>
-        </div>
+
       </div>
       <div class="volunteer-container">
         <h3 class="Volunteer">Interested in Volunteering?</h3>
 
         <p class="volunteer-text"></p>
         <a class="volunteer-button" href="Volunteer.html">Volunteer</a>
-      </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </div>
   </body>
 </html>
