@@ -316,7 +316,8 @@ p {
 
 .card:hover {
   border-radius: 5px;
-  cursor: pointer;
+
+
   transform: scale(1.2);
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
   background: rgba(122, 153, 219, 0.894);
@@ -512,7 +513,7 @@ nav {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
   margin: 20px; /* Added margin for spacing */
 }
 
@@ -546,7 +547,6 @@ nav {
   font-size: clamp(1.1rem, 8vw, 1.1rem);
   padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
   text-decoration: none;
-  transition: opacity 400ms ease;
   font-weight: 400;
   margin: 0px;
   display: block;
