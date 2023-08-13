@@ -14,6 +14,8 @@ Our course categories include:
 - Python Programming
 - Advanced Python
 - Scratch
+- Game Developement with Unity
+- Raspberry Pi & Pico Adventures
   
 Enrolling in our courses is a straightforward process:
 
