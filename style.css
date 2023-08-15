@@ -317,7 +317,6 @@ p {
 .card:hover {
   border-radius: 5px;
 
-
   transform: scale(1.2);
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
   background: rgba(122, 153, 219, 0.894);
@@ -637,7 +636,7 @@ nav {
 }
 
 .ofir-pic {
-  background-image: url("https://cdn.pixabay.com/photo/2012/04/18/00/07/silhouette-of-a-man-36181_1280.png");
+  background-image: url("img/ofir-pic.jpg.jpg");
   width: 285px;
   height: 381px;
   background-size: cover; /* Resize the background image to cover the entire container */
