@@ -36,7 +36,7 @@
 
         .sidebar {
             height: 100%;
-            width: 235px;
+            width: 260px;
             position: fixed;
             top: 0px;
             left: 0;
@@ -47,8 +47,8 @@
             z-index: 1;
             display: flex;
             flex-direction: column;
-            padding-right: 15px;
-            padding-left: 15px;
+            padding-right: 2px;
+            padding-left: 2px;
             gap: 0.2rem;
 
         }
@@ -91,8 +91,9 @@
         }
 
         .navbar {
-            margin-left: 14.5rem;
+            margin-left: 16.21rem;
             background-color: #a0a4b586;
+            z-index: 1000;
         }
 
 
@@ -133,10 +134,25 @@
         h5,
         h6 {
             font-family: monospace;
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.9rem;
             letter-spacing: 1px;
         }
 
+        li{
+            font-size: 1.2rem;
+            line-height: 1.5;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #333;
+            margin-bottom: 0.3rem;
+            font-weight: 400;
+
+        }
+        sidebarli{
+           
+            font-size: 0.85vw; 
+            list-style: none;
+            font-family: monospace;
+        }
         p {
             font-size: 1.2rem;
             line-height: 1.5;
@@ -234,19 +250,11 @@
             </a>
                 <hr width="100%" color="black" size="10px" />
                 <div>
-                    <ul style="margin: 0.1rem; padding:0.4rem; font-size: medium; list-style: none;">
-                        <li>
-                            <a href="./Articles/emoji-support.md"> Emoji </a>
-                        </li>
-                        <li>
-                            <a href="./Articles/markdown-syntax.md"> MD Tutorial </a>
-                        </li>
-                        <li>
-                            <a href="Articles/programmatic.md">Our Website</a>
-                        </li>
-                        <li>
-                            <a href="./Articles/random.md"> Random </a>
-                        </li>
+                    <ul style="margin: 0.1rem; padding:0.4rem; list-style: none;">
+                        <!-- ARTICLES SIDEBAR IS HERE: -->
+                        <sidebarli>
+                            <a href="Articles/programmatic.md"> Making Programmatic.org</a>
+                        </sidebarli>
                     </ul>
                 </div>
 
@@ -286,6 +294,7 @@
                         .then(markdown => {
                             const html = marked.parse(markdown);
                             markdownContentElement.innerHTML = html;
+                            console.log(html)
                         })
                         .catch(error => console.error('Error fetching or converting Markdown:', error));
                 }
