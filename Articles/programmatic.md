@@ -2,36 +2,53 @@
 
 <br/>
 
-As you might know, Programmatic is a non-profit organization created teach kids how to code. In this short article, however, we're gonna tell you about the process we took to set up this organization.
+ As you might know, Programmatic is a non-profit organization created teach kids how to code. In this short article, however, we're going to tell you about the process we took to set up this organization.
 
-<br/>
 <br/>
 
 ## The Idea
 
-<br/>
 
 We always wanted to explore the possibilities in computer science. As such, in our freshman year of high school, we all volunteered at a company that specializes in teaching kids how to code. However, after our first year, we saw that the company didn't offer courses and resources on many of the things that we deemed important, so we decided to start our own non-profit, naming it Programmatic. The name came from combining the words programming and problematic.
 
-<br/>
+
 <br/>
 
-## Setting up the website
+## Setting Up Programmatics.org
 
 <br/>
 
 After we came up with a name and idea, we started to set up the organization. One of the main tasks we focused on was the website. We used GitHub as our source control as well as our hosting (taking advantage of the Github Pages feature) and started programming it using HTML, CSS, and JavaScript. We used libraries and frameworks such as Bootstrap to help speed up certain formatting and boilerplating in our CSS. Our website is open source, and the source code can be found [here](https://github.com/Programmaticteams/Programmatics).
+   
+   <br/>
 
 1. Main page:
    The main page is the first page that people see when they go to our website; essentially the homepage. It has a menu in the center and a cool animation that occurs when you hover over menu items. The animation is composed of an image that moves up as you hover over a menu item, as well as the menu items and a gradient that goes down as you hover over the those items. We used JavaScript as our client-side programming language to get all the items in the menu and put them into an array. Then, whenever an item is hovered over, we assigned that item data's active index to the item position in the array. Finally, we used CSS to complete the animation.
+   
+   <br/>
+
 2. About page:
    The about us page was the easiest to make because it's composed only of text and images; in other words, no fancy animations or graphics. First, we put a background image over the entire page. Then we put an HTML division tag (div) with a black background color and low opacity over the page to increase the text readability. Lastly, We just added a div that holds the text.
+
+      
+   <br/>
+
 3. Our Team page:
    Our team page was the hardest to make because they contain animated picture cards. The cards are composed of a picture and a name, which, when hovered over, a description and a learn more button appears. The cards were made entirely using HTML and CSS and then positioned using Bootstrap so that the cards automatically realign when the screen size changes instead of scaling. We animated the cards so that the picture dissapears while text and a button rotate into position when the card is hovered over, with the button redirecting to a portfolio/resume page, providing more information about us. 
+
+      
+   <br/>
+
 4. Enroll page:
    The enrollment page also took a lot of work because of similar cards. Unlike our team page, the enroll page has more cards than you can fit into one row and also need to be easily changed so we can add more courses in the future. We used Bootstrap to make sure the cards won't scale when the screen size changes and then used multiple media queries in CSS so that the cards will be in the right place when the screen size changes.
+      
+   <br/>
+
 5. Bio pages:
    There are three bio pages, each redirecting to a different porfolio/resume page for each of the founders (us), and you get there by clicking the aformentioned buttons from the "Our Team" page. These were somewhat difficult to design but were easily replicated afterward for each of the three founders.
+
+   
+   <br/>
 
 There were many errors along the way, but we eventually got everything to work. After we finished the main part of the website, we got a domain name and set it up with GitHub pages. We also made Google forms to collect information from people who wanted to sign up for our classes, and customized out our bio pages.
 
